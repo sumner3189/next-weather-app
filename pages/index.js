@@ -1,6 +1,6 @@
 "use client";
 import Head from "next/head";
-import LocationSearchBar from "../components/LocationSearchBar";
+import LocationSearchBar from "../components/LocationSearchBar.js";
 
 export default function Home() {
   return (

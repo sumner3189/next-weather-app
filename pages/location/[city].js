@@ -1,5 +1,11 @@
 import LocationSearchBar from "../../components/LocationSearchBar";
 import Link from "next/link";
+import data from "../lib/city.list.json"
+
+
+
+
+
 
 export default function City() {
   return (
