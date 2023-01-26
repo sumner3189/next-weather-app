@@ -6,7 +6,7 @@ export default function HourlyWeather({ hourlyData, timeZone }) {
     const time = moment.unix(item.dt).tz(timeZone).format("LT");
     return (
       <>
-        {index < 6 ? (
+        {index < 5 ? (
           <div>
             <div>{index === 0 ? "now" : time}</div>
             <div>
