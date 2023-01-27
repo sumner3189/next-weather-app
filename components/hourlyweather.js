@@ -2,7 +2,7 @@ import moment from "moment-timezone";
 
 export default function HourlyWeather({ hourlyData, timeZone }) {
   const hourlyWeatherMap = hourlyData.map((item, index) => {
-    console.log(item.weather);
+  
     const time = moment.unix(item.dt).tz(timeZone).format("LT");
     return (
       <>

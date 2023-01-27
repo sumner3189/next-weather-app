@@ -28,7 +28,7 @@ export async function getServerSideProps(context) {
     return { notFound: true };
   }
   const timeZone = data.timezone;
-  console.log(data);
+
 
   return {
     props: {
@@ -47,7 +47,7 @@ export async function getServerSideProps(context) {
 }
 
 export default function City(props) {
-  console.log(props);
+ 
   return (
     <>
       <div className="container mt-5">
